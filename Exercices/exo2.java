@@ -29,8 +29,8 @@ public class exo2{
         b = clavier.nextInt();
         soustraction = a-b;
         System.out.println("a-b= "+soustraction);
-        if(soustraction<10){System.out.println("Le resultat est inferieur a 10");}
-        else{System.out.println("Le résultat est superieur ou egal a 10");}
+        if(soustraction<10){System.out.println("Le resultat est inferieur à 10");}
+        else{System.out.println("Le résultat est superieur ou égal à 10");}
         clavier.close();
     }
 }

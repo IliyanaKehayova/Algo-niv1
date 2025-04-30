@@ -1,0 +1,168 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "jalonblanc2",
+            "request": "launch",
+            "mainClass": "jalonblanc2",
+            "projectName": "Exercices_a0f34338"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "exo1",
+            "request": "launch",
+            "mainClass": "exo1",
+            "projectName": "Exercices_a0f34338"
+        },
+        {
+            "type": "java",
+            "name": "exo10",
+            "request": "launch",
+            "mainClass": "exo10",
+            "projectName": "Exercices_a0f34338"
+        },
+        {
+            "type": "java",
+            "name": "exo11",
+            "request": "launch",
+            "mainClass": "exo11",
+            "projectName": "Exercices_a0f34338"
+        },
+        {
+            "type": "java",
+            "name": "exo12",
+            "request": "launch",
+            "mainClass": "exo12",
+            "projectName": "Exercices_a0f34338"
+        },
+        {
+            "type": "java",
+            "name": "exo13",
+            "request": "launch",
+            "mainClass": "exo13",
+            "projectName": "Exercices_a0f34338"
+        },
+        {
+            "type": "java",
+            "name": "exo14",
+            "request": "launch",
+            "mainClass": "exo14",
+            "projectName": "Exercices_a0f34338"
+        },
+        {
+            "type": "java",
+            "name": "exo15",
+            "request": "launch",
+            "mainClass": "exo15",
+            "projectName": "Exercices_a0f34338"
+        },
+        {
+            "type": "java",
+            "name": "exo16",
+            "request": "launch",
+            "mainClass": "exo16",
+            "projectName": "Exercices_a0f34338"
+        },
+        {
+            "type": "java",
+            "name": "exo17",
+            "request": "launch",
+            "mainClass": "exo17",
+            "projectName": "Exercices_a0f34338"
+        },
+        {
+            "type": "java",
+            "name": "exo18",
+            "request": "launch",
+            "mainClass": "exo18",
+            "projectName": "Exercices_a0f34338"
+        },
+        {
+            "type": "java",
+            "name": "exo19",
+            "request": "launch",
+            "mainClass": "exo19",
+            "projectName": "Exercices_a0f34338"
+        },
+        {
+            "type": "java",
+            "name": "exo2",
+            "request": "launch",
+            "mainClass": "exo2",
+            "projectName": "Exercices_a0f34338"
+        },
+        {
+            "type": "java",
+            "name": "exo20",
+            "request": "launch",
+            "mainClass": "exo20",
+            "projectName": "Exercices_a0f34338"
+        },
+        {
+            "type": "java",
+            "name": "exo3",
+            "request": "launch",
+            "mainClass": "exo3",
+            "projectName": "Exercices_a0f34338"
+        },
+        {
+            "type": "java",
+            "name": "exo4",
+            "request": "launch",
+            "mainClass": "exo4",
+            "projectName": "Exercices_a0f34338"
+        },
+        {
+            "type": "java",
+            "name": "exo5",
+            "request": "launch",
+            "mainClass": "exo5",
+            "projectName": "Exercices_a0f34338"
+        },
+        {
+            "type": "java",
+            "name": "exo6",
+            "request": "launch",
+            "mainClass": "exo6",
+            "projectName": "Exercices_a0f34338"
+        },
+        {
+            "type": "java",
+            "name": "exo7",
+            "request": "launch",
+            "mainClass": "exo7",
+            "projectName": "Exercices_a0f34338"
+        },
+        {
+            "type": "java",
+            "name": "exo8",
+            "request": "launch",
+            "mainClass": "exo8",
+            "projectName": "Exercices_a0f34338"
+        },
+        {
+            "type": "java",
+            "name": "exo9",
+            "request": "launch",
+            "mainClass": "exo9",
+            "projectName": "Exercices_a0f34338"
+        },
+        {
+            "type": "java",
+            "name": "jalonblanc1",
+            "request": "launch",
+            "mainClass": "jalonblanc1",
+            "projectName": "Exercices_a0f34338"
+        }
+    ]
+}

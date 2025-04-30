@@ -65,18 +65,20 @@ public class exo9{
         e = clavier.nextLine();
         
         
-        if(d.equals(e)){System.out.println("Merci "+a+" "+b+", votre inscription a bien été effectuée, vous recevrez un mail de confirmation à l'adresse "+c);}
-        else{System.out.println("Inscription annulée !");};
-        
-        
+        if(d.equals(e)){System.out.println("Merci "+a+" "+b+", votre inscription a bien été effectuée, vous recevrez un mail de confirmation à l'adresse "+c);
+    
         System.out.println("Pour vous connecter renseignez votre mail.");
         f = clavier.nextLine();
         System.out.println("Renseignez votre mot de passe.");
         g = clavier.nextLine();
 
-        if(c.equals(f)&& d.equals(g)){System.out.println("Connexion reussite !");}
+        if(c.equals(f)&&d.equals(g)){System.out.println("Connexion reussite !");}
         else{System.out.println("Connextion refusee !");};
+}
+        else{System.out.println("Inscription annulée !");};
+        
 
+        
         clavier.close();
     }
 }
