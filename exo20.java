@@ -28,6 +28,7 @@
  * 
  * Joseline Inutile est la nouvelle maire de Mulhouse
  * 
+ * ****
  * 
 */
 import java.util.Scanner;
