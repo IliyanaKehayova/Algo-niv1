@@ -9,7 +9,7 @@ public static void main(String[] args){
     int montant = conversion.nextInt();
 
     System.out.println("Veuillez indiquer le taux de TVA. ");
-    int tva = conversion.nextInt();
+    int tva = conversion.next();
 
     int prixttc = montant+montant*tva/100;
 
