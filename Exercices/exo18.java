@@ -61,7 +61,7 @@ public class exo18 {
         String propriete = clavier.nextLine();
 
 
-        if((cdi.equals("OUI"))&&(salaire>3000)&&(apport>pret*25/100)){System.out.println("Vous etes elligible pour ce pret");}
+        if((cdi.equals("OUI"))&&(salaire>=3000)&&(apport>pret*25/100)){System.out.println("Vous etes elligible pour ce pret");}
         else if(propriete.equals("OUI")){System.out.println("Vous etes elligible pour ce pret");}
         else{System.out.println("Vous n'etes pas elligible pour ce pret");};
 

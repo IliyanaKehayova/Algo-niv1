@@ -33,29 +33,37 @@
  * 
 */
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 public class exo17 {
     public static void main(String[] args){
 
+        DecimalFormat f = new DecimalFormat();
+        f.setMaximumFractionDigits(2);
   
         Scanner clavier = new Scanner(System.in);
+        double prixgazole = 6.51;
+        double prix95 = 6.51;
+        double prix98 = 5.51;
 
         
-        System.out.println("Quel est le type de votre carburant ? \n Gazole (B7)= 0 \n Sans Plomb 95 = 1 \n Sans Plomb 98 (E5) = 2");
-        int gaz = clavier.nextInt();
+        System.out.println("Quel est le type de votre carburant ? \n Gazole (B7) = 0 \n Sans Plomb 95 = 1 \n Sans Plomb 98 (E5) = 2");
+        double gaz = clavier.nextDouble();
 
         if(gaz==0){System.out.println("Vous avez choisi Gazole");}
         else if(gaz==1){System.out.println("Vous avez choisi Sans Plomb 95");}
-        else{System.out.println("Vous avez choisi Sans Plomb 98 E5");};
+        else if(gaz==2){System.out.println("Vous avez choisi Sans Plomb 98 E5");};
 
         System.out.println("Quelle est la distance à parcourir (en km) ?");
         Double km = clavier.nextDouble();
+        clavier.nextLine();
+
 /*
  * (distance / 100 × consommation de carburant sur 100 km) 
  */
-        if(gaz==1){System.out.println("Pour "+km+" km, vous allez dépenser en moyenne "+(km/100*6.51)+" euros");}
-        else if(gaz==2){System.out.println("Pour "+km+" km, vous allez dépenser en moyenne "+(km/100*6.51)+" euros");}
-        else{System.out.println("Pour "+km+" km, vous allez dépenser en moyenne "+(km/100*5.51)+" euros");}
+        if(gaz==0){System.out.println("Pour "+km+" km, vous allez dépenser en moyenne "+(f.format(km/100*prixgazole))+" euros");}
+        else if(gaz==1){System.out.println("Pour "+km+" km, vous allez dépenser en moyenne "+(f.format(km/100*prix95))+" euros");}
+        else if (gaz==2){System.out.println("Pour "+km+" km, vous allez dépenser en moyenne "+(f.format(km/100*prix98))+" euros");}
 
         clavier.close();
 }}
