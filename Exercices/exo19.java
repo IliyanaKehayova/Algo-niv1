@@ -23,9 +23,9 @@ public class exo19 {
         System.out.println("Combien de secondes ?");
         int temps = clavier.nextInt();
 
-        int heures=temps/60;
-        int minutes=heures/60;
-        int secondes=minutes/60;
+        int heures=temps/3600;
+        int minutes=(temps%3600)/60;
+        int secondes=temps%60;
 
         System.out.println(temps+" secondes correspond à "+heures+" heures "+minutes+" minutes "+secondes+" secondes ");
 
