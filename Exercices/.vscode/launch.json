@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "exoanglais1",
+            "request": "launch",
+            "mainClass": "exoanglais1",
+            "projectName": "Exercices_a0f34338"
+        },
+        {
+            "type": "java",
             "name": "jalonblanc3",
             "request": "launch",
             "mainClass": "jalonblanc3",
