@@ -8,13 +8,15 @@ Basic Salary > 20000 : HRA = 30%, DA = 95%
  */
 import java.util.Scanner;
 public class exoanglais15 {
+    public static void main(String[] args){
+
     Scanner salary = new Scanner(System.in);
 
         
 
         
     salary.close();
-
+    }
     }
 
 
