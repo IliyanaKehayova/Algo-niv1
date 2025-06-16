@@ -19,7 +19,7 @@ else if (entry>0){
         Scanner calculator = new Scanner(System.in);
  
         System.out.println("Saisissez un chiffre.");
-        int entry = calculator.nextInt();
+        entry = calculator.nextInt();
 /*
 if(entry<0){System.out.println(entry+" est inférieur à 0.");}
 else if (entry==0){System.out.println(entry+" est égal à 0.");}
